@@ -20,7 +20,7 @@ import (
 	"os"
 
 	"github.com/golang/glog"
-	"github.com/google/go-licenses/licenses"
+	"github.com/trevorlyman/go-licenses/licenses"
 	"github.com/spf13/cobra"
 )
 
