@@ -86,7 +86,7 @@ func Libraries(ctx context.Context, classifier Classifier, ignoredPaths []string
 		for _, i := range ignoredPaths {
 			if strings.HasPrefix(p.PkgPath, i) {
 				// Marked to be ignored.
-				return true
+				return false
 			}
 		}
 
